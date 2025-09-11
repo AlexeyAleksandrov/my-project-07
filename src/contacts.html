@@ -34,15 +34,15 @@
         </section>
 
         <h1>Форма обратной связи</h1>
-        <form>
+        <form id="ContactForm">
             <label for="username">Ваши имя:</label>
-            <input type="text" id="username" name="username">
+            <input type="text" id="username" name="username" required>
 
             <label for="phone">Ваш номер телефона:</label>
-            <input type="text" id="phone" name="phone">
+            <input type="text" id="phone" name="phone" required>
 
             <label for="email">Ваш email:</label>
-            <input type="email" id="email" name="email">
+            <input type="email" id="email" name="email" required>
 
             <label for="cource">Ваш курс:</label>
             <select id="cource" name="cource">
@@ -55,7 +55,7 @@
             </select>
 
             <label for="message">Ваше обращение:</label>
-            <textarea id="message" name="message" rows="6"></textarea>
+            <textarea id="message" name="message" rows="6" required></textarea>
 
             <button type="submit" id="submit" name="submit">Отправить</button>
             <button type="reset" id="reset" name="reset">Очистить</button>
