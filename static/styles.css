@@ -1,0 +1,45 @@
+/* Сбрасываем стартовые стили */
+* {
+    margin: 0;  /* внешние отсутпы */
+    padding: 0; /* внутренние отсутпы */
+    box-sizing: border-box;
+}
+
+input, button {
+    border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+/* Теперь свои стили */
+label {
+    display: block;     /* label вертикально */
+    font-weight: bold;  /* полужирный */
+    margin-bottom: 10px;    /* отступ снизу */
+    margin-top: 10px;   /* отступ сверху */
+}
+
+input {
+    border: 3px solid purple;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+input:focus {
+    background-color: plum;
+}
+
+button {
+    padding: 5px;
+    border: 3px solid blue;
+    border-radius: 10px;
+    background-color: blue;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button:hover {
+    background-color: aliceblue;
+    color: blue;
+}
