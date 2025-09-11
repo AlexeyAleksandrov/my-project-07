@@ -13,4 +13,4 @@
 Тут будут описаны возможности
 
 ## Ссылка на сайт
-Ссылка: ....
+Ссылка: [Главная страница сайта](https://alexeyaleksandrov.github.io/my-project-07/src/index.html)
